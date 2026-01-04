@@ -232,3 +232,53 @@ hr{
     margin: auto;
     margin-bottom: 133px;
 }
+
+
+/* footer styles */
+.footer{
+    display: flex;
+    background-color: rgba(246, 230, 218, 1);
+    padding: 130px;
+    gap: 117px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+.footer-description{
+    margin-bottom: 20px;
+    width: 562px;
+}
+.icon{
+    margin-right: 24px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+    border-radius: 5px;
+    width: 461px;
+    height: 64px;
+}
+.form{
+    border: none;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.textarea{
+    margin-top: 55px;
+    margin-bottom: 24px;
+    width: 440px;
+    background-color: white;
+    border-radius: 5px;
+    height: 180px;
+    border: none;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.footer-btn{
+    padding: 19px 39px;
+}
